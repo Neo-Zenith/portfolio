@@ -1,0 +1,81 @@
+/*
+    use 'Lato' for font-family
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*
+    use 'Bona Nova' for font-family
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/*
+    use 'Inter' for font-family
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+    use 'Noto Sans Mono' for font-family
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --color-primary-dark-blue: #5488b6;
+    --color-secondary-dark-blue: #AECCE4;
+    --color-tertiary-dark-blue: #BDD5E7;
+
+    --color-primary-light-blue: #D1E5F4;
+    --color-secondary-light-blue: #E5F3FD;
+
+    --color-white: #FDFBFF;
+
+    font-size: 62.5%;
+}
+
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-size: 1.6rem;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    
+}
+
+
+.fadeOutLeft { 
+    transform: translate(-25rem, 0);
+    opacity: 0; 
+    transition: 1s ease-out;
+}
+
+.fadeInLeft { 
+    transform: translate(0, 0);
+    opacity: 1; 
+}
+
+.fadeOutRight { 
+    transform: translate(25rem, 0);
+    opacity: 0; 
+    transition: 1s ease-out;
+}
+
+.fadeInRight { 
+    transform: translate(0, 0);
+    opacity: 1; 
+}
+
+.fadeInBottom {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.fadeOutBottom {
+    transform: translate(0, 5rem);
+    opacity: 0; 
+    transition: 0.7s ease-out;
+}

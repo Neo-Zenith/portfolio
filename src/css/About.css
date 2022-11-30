@@ -1,0 +1,87 @@
+
+.about-container {
+    height: 90rem;
+    width: 100%;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.about-wrapper {
+    margin-left: 15%;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.about-header {
+    height: 6rem;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header span {
+    font: 400 3rem 'Noto Sans Mono';
+    color: var(--color-primary-dark-blue);
+}
+
+.about-title {
+    height: 8rem;
+}
+
+.about-title span {
+    font: 600 4rem 'Noto Sans Mono';
+}
+
+.about-content {
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-content .about-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text span {
+    font: 400 1.8rem 'Lato';
+    line-height: 3rem;
+    align-self: center;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .about-header span {
+        font-size: 2.8rem;
+    }
+
+    .about-title span {
+        font-size: 3.8rem;
+    }
+
+    .about-text span {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-content .about-text {
+        width: 80%;
+    }
+
+    .about-header {
+        margin-top: 15rem;
+        height: 4.5rem;
+    }
+
+    .about-header span {
+        font-size: 2.5rem;
+    }
+
+    .about-title span {
+        font-size: 3rem;
+    }
+}

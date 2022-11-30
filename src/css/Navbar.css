@@ -1,0 +1,134 @@
+
+.navbar-container {
+    height: 10rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    box-shadow: rgba(31, 67, 83, 0.5) 0px 20px 100px -30px;
+}
+
+.navbar-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 18%;
+}
+
+.navbar-logo span {
+    text-align: center;
+    font: 700 2.5rem 'Inter';
+}
+
+.navbar-logo span a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.navbar-links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.navbar-links ul li {
+    list-style: none;
+    margin: 0rem 5rem;
+}
+
+.navbar-links ul li a {
+    text-decoration: none;
+    color: black;
+    font: 700 2rem 'Inter';
+}
+
+.navbar-links ul li a:hover {
+    color: var(--color-primary-dark-blue);
+    border-bottom: 0.3rem solid var(--color-primary-dark-blue);
+    padding-bottom: 0.7rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    width: 22%;
+}
+
+.social-links ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social-links ul li {
+    list-style: none;
+    margin: 0rem 2.5rem;
+}
+
+.social-links ul img {
+    width: 3.5rem;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .navbar-container {
+        flex-direction: column;
+    }
+
+    .navbar-logo {
+        margin-top: 2rem;
+        width: 25%;
+    }
+
+    .navbar-links {
+        width: 100%;
+    }
+
+    .social-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .navbar-logo span {
+        font-size: 2rem;
+    }
+
+    .navbar-links ul li {
+        margin: 0rem 2.5rem;
+    }
+
+    .navbar-links ul li a {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-logo {
+        width: 40%;
+    }
+    
+    .navbar-logo span {
+        font-size: 1.8rem;
+    }
+
+    .navbar-links ul li {
+        margin: 0rem 1.7rem;
+    }
+
+    .navbar-links ul li a {
+        font-size: 1.5rem;
+    }
+}

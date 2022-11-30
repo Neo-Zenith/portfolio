@@ -1,0 +1,174 @@
+
+.hero-container {
+    height: 90rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-pretext {
+    height: 6rem;
+    width: 100%;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-pretext span {
+    font: 400 2.5rem 'Noto Sans Mono';
+    align-self: center;
+}
+
+.hero-text {
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text span {
+    font: 600 6rem 'Inter';
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+.hero-text .rotating-text {
+    color: var(--color-primary-dark-blue);
+}
+
+.hero-description {
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-description span {
+    font: 350 2.5rem 'Lato';
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7rem;
+}
+
+.hero-links ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero-links ul li {
+    list-style: none;
+    margin: 0rem 2rem;
+}
+
+.hero-links ul img {
+    width: 3.5rem;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .hero-pretext {
+        height: 6rem;
+    }
+
+    .hero-pretext span {
+        font-size: 2.5rem;
+    }
+
+    .hero-text {
+        height: 18rem;
+    }
+
+    .hero-text span {
+        font-size: 5.5rem;
+    }
+
+    .hero-description {
+        height: 8rem;
+    }
+
+    .hero-description span {
+        width: 60%;
+        font-size: 2.5rem;
+    }
+
+    .hero-links {
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hero-pretext {
+        height: 4rem;
+    }
+
+    .hero-pretext span {
+        font-size: 2rem;
+    }
+
+    .hero-text {
+        height: 15rem;
+    }
+
+    .hero-text span {
+        font-size: 5rem;
+    }
+
+    .hero-description {
+        height: 10rem;
+    }
+
+    .hero-description span {
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    .hero-links ul img {
+        width: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        height: 70rem;
+    }
+
+    .hero-pretext {
+        height: 3rem;
+        margin-top: 18rem;
+    }
+
+    .hero-pretext span {
+        font-size: 1.8rem;
+    }
+
+    .hero-text {
+        height: 13rem;
+    }
+
+    .hero-text span {
+        font-size: 4.5rem;
+    }
+
+    .hero-description span {
+        width: 80%;
+        font-size: 1.8rem;
+    }
+
+    .hero-links {
+        height: 7rem;
+        margin-left: -2rem;
+    }
+
+    .hero-links ul img {
+        width: 2.5rem;
+    }
+}
