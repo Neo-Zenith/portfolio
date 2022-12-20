@@ -132,7 +132,7 @@ export default function Project() {
                                     <img src="https://user-images.githubusercontent.com/77436548/193458047-a42b20fd-16f5-45e3-8d0c-4aa80e502cd8.gif" />
                                 </div>
                                 <div className="project-card-title">
-                                    Project aSES
+                                    Student Engagement System
                                 </div>
                                 <hr className="project-card-header-line" />
                                 <div className="project-card-description">
@@ -174,7 +174,7 @@ export default function Project() {
                                     <img src="https://www.cmarix.com/blog/wp-content/uploads/2020/03/Everything-About-Online-Movie-Ticket-Booking-App-and-Website-Development-02.png" />
                                 </div>
                                 <div className="project-card-title">
-                                    MOBLIMA
+                                    Movie Booking System
                                 </div>
                                 <hr className="project-card-header-line" />
                                 <div className="project-card-description">

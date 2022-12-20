@@ -1,6 +1,7 @@
 
 .hero-container {
     height: 90rem;
+    width: 100%;
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -9,7 +10,7 @@
 .hero-pretext {
     height: 6rem;
     width: 100%;
-    margin-top: 20rem;
+    margin-top: 30rem;
     display: flex;
     flex-direction: column;
 }
@@ -77,6 +78,7 @@
 @media screen and (max-width: 1500px) {
     .hero-pretext {
         height: 6rem;
+        margin-top: 25rem;
     }
 
     .hero-pretext span {
@@ -108,6 +110,7 @@
 @media screen and (max-width: 960px) {
     .hero-pretext {
         height: 4rem;
+        margin-top: 20rem;
     }
 
     .hero-pretext span {

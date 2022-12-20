@@ -1,6 +1,6 @@
 
 .tech-container {
-    height: 130rem;
+    height: 110rem;
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 3% 0 0 0;
-    background-color: var(--color-white);
+    background-color: transparent;
 }
 
 .tech-cards {
