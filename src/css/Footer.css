@@ -53,6 +53,10 @@
     color: black;
 }
 
+.footer-contact-info-details li a img {
+    width: 1.8rem;
+}
+
 
 .footer-text {
     color: var(--color-text-primary);
@@ -74,6 +78,10 @@
     .footer-contact-info-details li {
         grid-column-start: 1;
         margin-bottom: 0.8rem;
+    }
+
+    .footer-contact-info-details li a img {
+        padding-top: 0.5rem;
     }
 }
 
@@ -99,5 +107,9 @@
         font-size: 1rem;
         grid-column-start: 1;
         width: 20rem;
+    }
+
+    .footer-contact-info-details li a img {
+        width: 1rem;
     }
 }

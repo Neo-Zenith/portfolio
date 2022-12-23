@@ -47,7 +47,9 @@ export default function Project() {
                                 <div className="project-card-image">
                                     <img src="https://user-images.githubusercontent.com/77436548/197239208-9991be04-783a-4707-8c72-86ef7744bc38.gif" />
                                 </div>
-                                <div className="project-card-title">FindR</div>
+                                <div className="project-card-title">
+                                    E-Commerce Price Comparison App
+                                </div>
                                 <hr className="project-card-header-line" />
                                 <div className="project-card-description">
                                     <span>
@@ -60,14 +62,14 @@ export default function Project() {
                                 <hr className="project-card-footer-line" />
                                 <div className="project-card-tech">
                                     <div className="project-card-tech-header">
-                                        Tech Stack
+                                        Tech Used
                                     </div>
                                     <div className="project-card-tech-info">
                                         <div className="project-card-tech-stack">
                                             ReactJS
                                         </div>
                                         <div className="project-card-tech-stack">
-                                            dJango{" "}
+                                            Django{" "}
                                         </div>
                                         <div className="project-card-tech-stack">
                                             Microsoft Azure
@@ -102,7 +104,7 @@ export default function Project() {
                                 <hr className="project-card-footer-line" />
                                 <div className="project-card-tech">
                                     <div className="project-card-tech-header">
-                                        Tech Stack
+                                        Tech Used
                                     </div>
                                     <div className="project-card-tech-info">
                                         <div className="project-card-tech-stack">
@@ -146,7 +148,7 @@ export default function Project() {
                                 <hr className="project-card-footer-line" />
                                 <div className="project-card-tech">
                                     <div className="project-card-tech-header">
-                                        Tech Stack
+                                        Tech Used
                                     </div>
                                     <div className="project-card-tech-info">
                                         <div className="project-card-tech-stack">
@@ -188,7 +190,7 @@ export default function Project() {
                                 <hr className="project-card-footer-line" />
                                 <div className="project-card-tech">
                                     <div className="project-card-tech-header">
-                                        Tech Stack
+                                        Tech Used
                                     </div>
                                     <div className="project-card-tech-info">
                                         <div className="project-card-tech-stack">

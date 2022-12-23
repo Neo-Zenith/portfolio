@@ -83,10 +83,11 @@
 
 .project-card-title {
     color: var(--color-primary-dark-blue);
-    font: 400 2.5rem 'Lato';
+    font: 400 2rem 'Lato';
     height: 2rem;
     width: 50rem;
     padding-top: 3rem;
+    margin-bottom: 0.5rem;
     text-align: center;
 }
 
@@ -95,24 +96,24 @@
     width: 5rem;
     height: 0%;
     border: 2px solid var(--color-secondary-dark-blue);
-    margin-top: 2.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .project-card-description {
     color: var(--color-text-secondary);
     padding: 0rem 3rem;
-    font: 300 2rem 'Lato';
+    font: 300 1.7rem 'Lato';
     word-spacing: 0.25rem;
     min-height: 5rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .project-card-description span {
     display: inline-block;
+    width: 100%;
     text-align: center;
+    justify-content: center;
 }
 
 .project-card-tech {
@@ -124,7 +125,7 @@
 
 .project-card-tech-header {
     color: var(--color-primary-dark-blue);
-    font: 400 2.5rem 'Lato';
+    font: 400 2rem 'Lato';
     padding-left: 5rem;
 }
 

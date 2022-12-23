@@ -10,7 +10,7 @@ function Footer() {
                     <ul className="footer-contact-info">
                         <li>Email</li>
                         <li>Mobile</li>
-                        <li>Location</li>
+                        <li>Resume</li>
                     </ul>
                     <ul className="footer-contact-info-details">
                         <li>
@@ -19,7 +19,11 @@ function Footer() {
                             </a>
                         </li>
                         <li>(65) 8934 0061</li>
-                        <li>Singapore</li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1i_M78dXS1W9ISsZPew9NRXezZYtPOjEx/view?usp=share_link">
+                                <img src="https://simpleicons.org/icons/googledrive.svg" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div className="footer-text">With 💙 by Lee Juin.</div>

@@ -6,7 +6,7 @@ export default function HeroSection() {
         <>
             <div id="home" className="hero-container">
                 <div className="hero-pretext">
-                    <span>printf("Hello World!\n");</span>
+                    <span>printf("Hello World!");</span>
                 </div>
                 <div className="hero-text">
                     <span className="normal-text">Welcome to My</span>
