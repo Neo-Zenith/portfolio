@@ -20,7 +20,7 @@ function Footer() {
                         </li>
                         <li>(65) 8934 0061</li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1i_M78dXS1W9ISsZPew9NRXezZYtPOjEx/view?usp=share_link">
+                            <a href="https://drive.google.com/file/d/14JFvcZpoErQvOuq22FjCPHV_Bxm0QngL/view?usp=sharing">
                                 <img src="https://simpleicons.org/icons/googledrive.svg" />
                             </a>
                         </li>
