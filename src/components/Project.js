@@ -63,7 +63,7 @@ export default function Project() {
                                             Microsoft Azure
                                         </div>
                                         <div className="project-card-tech-stack">
-                                            PotsgreSQL
+                                            PostgreSQL
                                         </div>
                                     </div>
                                 </div>
