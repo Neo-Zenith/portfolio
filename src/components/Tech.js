@@ -42,59 +42,199 @@ export default function Tech() {
                     <div className="tech-content">
                         <div className="tech-cards">
                             <div className="tech-card">
-                                <div className="tech-card-title">Languages</div>
-                                <div className="tech-card-info-text">
-                                    C, Python, Java, C++
-                                </div>
-                                <div className="tech-card-info">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" />
-                                    <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" />
-                                    <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" />
-                                    <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" />
+                                <img
+                                    alt="Java"
+                                    title="Java"
+                                    src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Java</span>
                                 </div>
                             </div>
-
                             <div className="tech-card">
-                                <div className="tech-card-title">
-                                    Web Development
+                                <img
+                                    alt="C++"
+                                    title="C++"
+                                    src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
+                                />
+                                <div className="tech-name">
+                                    <span>C++</span>
                                 </div>
-                                <div className="tech-card-info-text">
-                                    React, Django, HTML, CSS, JS
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Python"
+                                    title="Python"
+                                    src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Python</span>
                                 </div>
-                                <div className="tech-card-info">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" />
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5wbb8iR5cNWmGeAyIw3oKeMVEpdWWG4_VXzPnJaIwQ&s" />
-                                    <img src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" />
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" />
-                                    <img src="https://www.computerhope.com/jargon/j/javascript.png" />
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="C"
+                                    title="C"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXGGSNGRcWTi2jFFyIXll-Rmq8G5KzY0tDsip1spY&s"
+                                />
+                                <div className="tech-name">
+                                    <span>C</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="JavaScript"
+                                    title="JavaScript"
+                                    src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+                                />
+                                <div className="tech-name">
+                                    <span>JavaScript</span>
                                 </div>
                             </div>
                         </div>
                         <div className="tech-cards">
                             <div className="tech-card">
-                                <div className="tech-card-title">
-                                    Cloud & Databases
-                                </div>
-                                <div className="tech-card-info-text">
-                                    Azure, PostgreSQL
-                                </div>
-                                <div className="tech-card-info">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png" />
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" />
+                                <img
+                                    alt="HTML"
+                                    title="HTML"
+                                    src="https://cdn-icons-png.flaticon.com/512/919/919827.png"
+                                />
+                                <div className="tech-name">
+                                    <span>HTML</span>
                                 </div>
                             </div>
                             <div className="tech-card">
-                                <div className="tech-card-title">
-                                    Data Science
+                                <img
+                                    alt="CSS"
+                                    title="CSS"
+                                    src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                                />
+                                <div className="tech-name">
+                                    <span>CSS</span>
                                 </div>
-                                <div className="tech-card-info-text">
-                                    Pandas, Scikit-learn, OpenCV, Streamlit
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="ReactJS"
+                                    title="ReactJS"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                                />
+                                <div className="tech-name">
+                                    <span>ReactJS</span>
                                 </div>
-                                <div className="tech-card-info">
-                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAAEDCAMAAABQ/CumAAAAeFBMVEX///8TB1QAAEb/ygDnBIgPAFLNzNYTAFnQ0NgMAFcAAETb2eP39/oUBlfV1N7/xwDmAID/9tfLydcjG17/4Yz//vbCwM3ykcL61OfoBIwyKmgAADYAAE0AAErx8PTIxdT/+un/34T85/Lyir/lAHv50eX+9fkpH2Ma8J+4AAACEklEQVR4nO3dzVIaQRSAUYNCEIGoiYmJivnP+79hFrmLVHELZ6pnmG483xqaPruh5lb32ZkkSZIkSZIkvb52z7dZU2+rT4uH2X6rx6m31afF7M1+87dTb6tPCDWEUEMINYRQQ5MS1tu0nqtMSrhKn26e1v1WmZawyn58g4DQL4QIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyECOFA6cvM5a4nYb29yjoO4WmVvM58WPQkbF8e+RqPcDlPVp4t+xLS/W0QEBCqI8yTLpsizN8n/WmJ0CEEBAQEBAQEBIT2CF+/fci6a4hw8y7rvC3CeRYCAgICAgICAgICAgICwlCEtJYIdzdp/3+kdkKHToFQ+RjJMCEcCKF7CAdC6B7CgRC6Nylh9zGtJUJ6uNCsnsOFhhkvPAHC9x+fsloi/Pp5nXTREuH++iLpMwICAgICAgICAgICAgKC/87R7/u0lggdQkBAQEBAQEB4dYQON67UTqh9KuwkDlRBQED4R8gOF5o3Rdh8yepLGO0ez6MNPO+WQ9w3NilhvBAihLIQIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyECKEshAihLIQIoSyEKJt+lL0SNeADUR4TG9cGWXHew10AkPP4aRBO9ohEuOFUEMINYRQQwg1dAKEDvd41t5t2u7lL0qSJEmSJEnSyfUXeomSFq0EzbkAAAAASUVORK5CYII=" />
-                                    <img src="https://avatars.githubusercontent.com/u/17349883?s=280&v=4" />
-                                    <img src="https://editor.analyticsvidhya.com/uploads/232202.png" />
-                                    <img src="https://res.cloudinary.com/dyd911kmh/image/upload/v1640050215/image27_frqkzv.png" />
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Django"
+                                    title="Django"
+                                    src="https://icons-for-free.com/iconfiles/png/512/django-1324440148290348292.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Django</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Azure"
+                                    title="Azure"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Azure</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="PostgreSQL"
+                                    title="PostgreSQL"
+                                    src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
+                                />
+                                <div className="tech-name">
+                                    <span>PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="tech-cards">
+                            <div className="tech-card">
+                                <img
+                                    alt="Pandas"
+                                    title="Pandas"
+                                    src="https://pandas.pydata.org/static/img/pandas_mark.svg"
+                                />
+                                <div className="tech-name">
+                                    <span>Pandas</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Scikit-learn"
+                                    title="Scikit-learn"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Scikit-learn</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="OpenCV"
+                                    title="OpenCV"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg"
+                                />
+                                <div className="tech-name">
+                                    <span>OpenCV</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Streamlit"
+                                    title="Streamlit"
+                                    src="https://streamlit.io/images/brand/streamlit-mark-color.svg"
+                                />
+                                <div className="tech-name">
+                                    <span>Streamlit</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="tech-cards">
+                            <div className="tech-card">
+                                <img
+                                    alt="Git"
+                                    title="Git"
+                                    src="https://git-scm.com/images/logos/logomark-orange@2x.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Git</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="VSCode"
+                                    title="VSCode"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                                />
+                                <div className="tech-name">
+                                    <span>VSCode</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Visual Studio"
+                                    title="Visual Studio"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1200px-Visual_Studio_Icon_2019.svg.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Visual Studio</span>
+                                </div>
+                            </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Jupyter"
+                                    title="Jupyter"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Jupyter</span>
                                 </div>
                             </div>
                         </div>
