@@ -116,7 +116,9 @@ export default function Project() {
                                     <img src="https://user-images.githubusercontent.com/77436548/193458047-a42b20fd-16f5-45e3-8d0c-4aa80e502cd8.gif" />{" "}
                                 </div>
                                 <div className="project-card-title">
-                                    <span>Student Engagement System</span>
+                                    <span>
+                                        Automated Student Engagement System
+                                    </span>
                                 </div>
 
                                 <div className="project-card-tech">
