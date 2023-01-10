@@ -216,7 +216,7 @@
 
 @media screen and (max-width: 768px) {
     .project-container {
-        height: 160rem;
+        height: 130rem;
     }
 
     .project-header {
@@ -241,6 +241,7 @@
     }
 
     .project-card {
+        margin-top: -3rem;
         margin-left: 3rem;
         margin-bottom: -8rem;
         transform: scale(0.55);

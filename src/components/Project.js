@@ -78,7 +78,7 @@ export default function Project() {
                             </div>
                             <div className="project-card">
                                 <div className="project-img">
-                                    <img src="https://user-images.githubusercontent.com/77436548/210179853-f831aad7-64d0-4e02-977e-291a60755e14.png" />{" "}
+                                    <img src="https://user-images.githubusercontent.com/77436548/211150907-47f4ec3c-a436-44e5-bc80-c15075ef24cc.png" />{" "}
                                 </div>
                                 <div className="project-card-title">
                                     <span>Sentiment Analyzer App</span>
@@ -113,7 +113,7 @@ export default function Project() {
                         <div className="project-cards">
                             <div className="project-card">
                                 <div className="project-img">
-                                    <img src="https://user-images.githubusercontent.com/77436548/193458047-a42b20fd-16f5-45e3-8d0c-4aa80e502cd8.gif" />{" "}
+                                    <img src="https://user-images.githubusercontent.com/77436548/211150806-ca8a1100-db49-480c-b473-3895b9d080da.png" />{" "}
                                 </div>
                                 <div className="project-card-title">
                                     <span>
@@ -148,24 +148,33 @@ export default function Project() {
                             </div>
                             <div className="project-card">
                                 <div className="project-img">
-                                    <img src="https://user-images.githubusercontent.com/77436548/200524950-eb502aca-088c-4084-bade-7025f98a70b3.png" />{" "}
+                                    <img src="https://user-images.githubusercontent.com/77436548/211150763-e6a33ec7-a422-4ed6-a750-e72c96049814.png" />{" "}
                                 </div>
                                 <div className="project-card-title">
-                                    <span>Movie Booking System</span>
+                                    <span>Luggage Status Checker Web App</span>
                                 </div>
                                 <div className="project-card-tech">
                                     <div className="project-card-tech-info">
                                         <div className="project-card-tech-stack">
-                                            Java
+                                            Arduino
                                         </div>
                                         <div className="project-card-tech-stack">
-                                            Object-oriented Programming
+                                            ReactJS
+                                        </div>
+                                        <div className="project-card-tech-stack">
+                                            Django
+                                        </div>
+                                        <div className="project-card-tech-stack">
+                                            Microsoft Azure
+                                        </div>
+                                        <div className="project-card-tech-stack">
+                                            IoT
                                         </div>
                                     </div>
                                 </div>
                                 <div className="project-card-navigation">
                                     <a
-                                        href="https://github.com/Neo-Zenith/Project-MOBLIMA"
+                                        href="https://github.com/Neo-Zenith/escendo-ReadyBex"
                                         className="project-card-navigation-link"
                                     >
                                         <i class="fa-solid fa-code"></i>

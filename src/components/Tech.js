@@ -237,6 +237,16 @@ export default function Tech() {
                                     <span>Jupyter</span>
                                 </div>
                             </div>
+                            <div className="tech-card">
+                                <img
+                                    alt="Arduino"
+                                    title="Arduino"
+                                    src="https://www.clipartmax.com/png/middle/117-1179524_icon-arduino-arduino-logo.png"
+                                />
+                                <div className="tech-name">
+                                    <span>Arduino</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

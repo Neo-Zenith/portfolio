@@ -44,6 +44,19 @@ body {
     overflow-x: hidden; 
 }
 
+#root {
+    overflow: hidden;
+}
+
+#home,
+#about,
+#tech,
+#projects,
+#navbar-non-mobile,
+#footer {
+    transition: 0.5s all ease-in-out;
+}
+
 
 .fadeOutLeft { 
     transform: translate(-25rem, 0);
