@@ -3,8 +3,10 @@ import React, { useState, useEffect } from "react";
 
 export default function Navbar() {
     const [width, setWidth] = useState(0);
+    const [open, setOpen] = useState(false);
 
     const openMenu = (e) => {
+        setOpen(true);
         document.getElementById("navbar-mobile").style.transform =
             "translate(0, 0)";
         document.getElementById("navbar-mobile").style.display = "flex";
@@ -20,6 +22,7 @@ export default function Navbar() {
     };
 
     const closeMenu = (e) => {
+        setOpen(false);
         document.getElementById("navbar-mobile").style.transform =
             "translate(50rem, 0)";
         document.getElementById("navbar-mobile").style.display = "none";
@@ -48,6 +51,7 @@ export default function Navbar() {
 
     useEffect(() => {
         if (width >= 768) {
+            setOpen(false);
             document.getElementById("navbar-non-mobile").style.filter =
                 "brightness(1)";
             document.getElementById("navbar-mobile").style.transform =
@@ -61,7 +65,9 @@ export default function Navbar() {
             document.getElementById("projects").style.filter = "brightness(1)";
             document.getElementById("footer").style.filter = "brightness(1)";
         } else {
-            document.getElementById("navbar-menu").style.display = "flex";
+            if (!open) {
+                document.getElementById("navbar-menu").style.display = "flex";
+            }
         }
     }, [width]);
 
@@ -116,7 +122,7 @@ export default function Navbar() {
                         </span>
                     </div>
                     <div className="navbar-quote">
-                        <span>BUILDING & EXPLORING</span>
+                        <span>CONSISTENCY MAKES PERFECTION</span>
                     </div>
                     <hr className="navbar-div" />
 
@@ -162,7 +168,31 @@ export default function Navbar() {
                             </a>
                         </li>
                     </ul>
+                    <hr className="navbar-div" />
+                    <div className="navbar-social-mobile">
+                        <div className="social-mobile-header">
+                            <span>LET'S GET CONNECTED!</span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Neo-Zenith">
+                                    <img src="https://simpleicons.org/icons/github.svg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/in/juin-lee">
+                                    <img src="https://simpleicons.org/icons/linkedin.svg" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:juin.lee@outlook.com">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/561/561188.png" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
                 <div className="social-links">
                     <ul>
                         <li>

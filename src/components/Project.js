@@ -151,7 +151,7 @@ export default function Project() {
                                     <img src="https://user-images.githubusercontent.com/77436548/211150763-e6a33ec7-a422-4ed6-a750-e72c96049814.png" />{" "}
                                 </div>
                                 <div className="project-card-title">
-                                    <span>Luggage Status Checker Web App</span>
+                                    <span>Luggage Status Web App</span>
                                 </div>
                                 <div className="project-card-tech">
                                     <div className="project-card-tech-info">

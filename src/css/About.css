@@ -72,6 +72,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .about-container {
+        height: 80rem;
+    }
+
     .about-content .about-text {
         width: 88%;
     }
@@ -82,10 +86,14 @@
     }
 
     .about-header span {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .about-title span {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .about-text span {
+        font-size: 1.3rem;
     }
 }

@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "../css/About.css";
-import TypedReact from "./TypedReact";
 
 export default function About() {
     const observerOptions = {
@@ -52,11 +51,10 @@ export default function About() {
                             </span>
                             <span>
                                 I am most experienced working with Python and C,
-                                but I am also familiar with Java and
-                                C++. Currently looking for summer internship
+                                but I am also familiar with Java and C++.
+                                Currently looking for summer internship
                                 opportunities to work in tangible software
-                                development.{" "}
-                                <TypedReact strings={[""]}></TypedReact>
+                                development.
                             </span>
                         </div>
                     </div>
