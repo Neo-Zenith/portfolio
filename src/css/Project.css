@@ -63,6 +63,7 @@
     align-items: center;
     border-radius: 2rem;
     position: relative;
+    transition: 0.3s all ease-in-out;
     box-shadow: rgba(31, 67, 83, 0.5) 0px 0px 100px -30px, 
                 rgba(0, 0, 0, 0.3) 0px 10px 10px 0px,  
                 rgba(38, 11, 63, 0.3) 0px 0px 6px 0px inset;
